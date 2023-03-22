@@ -1,0 +1,31 @@
+<button class="btn">Нажми на меня</button>
+<button class="btn">Нажми на меня</button>
+<button class="btn">Нажми на меня</button>
+<button class="btn">Нажми на меня</button>
+<button class="btn">Нажми на меня</button>
+
+<script>
+  let btns=document.querySelectorAll('.btn');
+  
+  for(let i=0; i<5; i=i+1){
+  	btns[i].onclick=function(){
+  		btns[i].innerHTML="Я нажата"
+  	}
+  }
+
+  /*btns[0].onclick=function(){
+  	btns[0].innerHTML="Я нажата";
+  }
+  btns[1].onclick=function(){
+  	btns[1].innerHTML="Я нажата";
+  }
+  btns[2].onclick=function(){
+  	btns[2].innerHTML="Я нажата";
+  }
+  btns[3].onclick=function(){
+  	btns[3].innerHTML="Я нажата";
+  }
+  btns[4].onclick=function(){
+  	btns[4].innerHTML="Я нажата";
+  }*/
+</script>
